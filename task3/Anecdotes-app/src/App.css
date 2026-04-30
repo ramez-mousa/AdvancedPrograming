@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Inter", system-ui;
+}
+
+/* BACKGROUND */
+.bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    radial-gradient(circle at 10% 20%, #7c3aed55, transparent 40%),
+    radial-gradient(circle at 80% 30%, #06b6d455, transparent 40%),
+    radial-gradient(circle at 50% 80%, #22c55e33, transparent 40%),
+    #0b1020;
+}
+
+/* MAIN CARD */
+.card {
+  width: 520px;
+  padding: 28px;
+  border-radius: 22px;
+
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 25px 80px rgba(0,0,0,0.6);
+
+  color: white;
+}
+
+/* HEADER */
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  background: linear-gradient(90deg, #a78bfa, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header p {
+  margin-top: 6px;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+/* QUOTE BOX */
+.quoteBox {
+  margin-top: 20px;
+  padding: 18px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.quote {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.votes {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+/* PRIMARY */
+.primary {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  box-shadow: 0 0 20px #22c55e33;
+}
+
+/* SECONDARY */
+.secondary {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: white;
+  box-shadow: 0 0 20px #3b82f633;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* TOP SECTION */
+.top {
+  margin-top: 25px;
+}
+
+.top h2 {
+  font-size: 16px;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+.topBox {
+  padding: 14px;
+  border-radius: 14px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e2e8f0;
+}
+
+.topBox span {
+  color: #22c55e;
+  font-weight: bold;
+}

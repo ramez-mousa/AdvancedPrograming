@@ -1,0 +1,118 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+  color: #0f172a;
+}
+
+/* CENTER PAGE */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* MAIN CARD */
+.card {
+  width: 520px;
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+  border: 1px solid #e2e8f0;
+}
+
+/* HEADER */
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.header p {
+  margin-top: 6px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* AMAZON / MODERN STYLE COLORS */
+.good {
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: white;
+}
+
+.neutral {
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+  color: white;
+}
+
+.bad {
+  background: linear-gradient(135deg, #fb7185, #ef4444);
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+/* STATS */
+.stats h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #0f172a;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+td:first-child {
+  color: #475569;
+}
+
+td:last-child {
+  text-align: right;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* EMPTY STATE */
+.empty {
+  padding: 18px;
+  text-align: center;
+  background: #f1f5f9;
+  border-radius: 12px;
+  color: #64748b;
+  font-size: 14px;
+}
